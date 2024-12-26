@@ -106,6 +106,8 @@ To ensure Kafka is running, list the topics currently available:
 ./bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 
+![Kafka-topics-list-image]()
+
 If Kafka is correctly configured, this command should return an empty list if no topics are created yet.
 
 ---
